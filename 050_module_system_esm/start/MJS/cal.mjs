@@ -1,10 +1,9 @@
-function plus(a, b) {
-  return a + b;
-}
-function minus(a, b) {
-  return a - b;
+function sa() {
+  console.log('こんばんは。');
 }
 
-// export { plus, minus };
-
-export { plus, minus };
+function da() {
+  console.log('おおげさ');
+}
+// ESMではエクスポートする側にはexportを使う
+export { sa, da };

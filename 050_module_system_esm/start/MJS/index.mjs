@@ -1,4 +1,7 @@
-import { plus } from './cal.mjs';
+// mjsではインポートする側にはimportを書く
+import { sa } from './cal.mjs';
+import { da } from './cal.mjs';
 
-const result = plus(1, 2);
-console.log(result);
+sa();
+
+da();
