@@ -8,7 +8,7 @@ let num = Math.floor(Math.random() * 1e4);
 
 // console.log(__dirname); // __dirnameは現在実行したscriptまでの絶対パスが記載されている
 
-// fs.writeFileSync(`test${num}.html`, '<p>こんばんは</p>');
+fs.writeFileSync(`test${num}.html`, '<p>こんばんは</p>');
 
 // console.log(__dirname);
 // console.log(__filename);
