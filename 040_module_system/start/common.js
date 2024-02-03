@@ -31,3 +31,10 @@ module.exports = {
   multi,
   division,
 };
+
+module.exports = {
+  plus,
+  minus,
+  multi,
+  division,
+};
