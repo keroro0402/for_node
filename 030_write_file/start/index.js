@@ -16,3 +16,4 @@ let num = Math.floor(Math.random() * 1e4);
 // fs = require('fs');
 // fs.writeFileSync(__dirname + '/q.txt', 'さっささささ');
 //これはtt2ブランチ
+// // // // //
