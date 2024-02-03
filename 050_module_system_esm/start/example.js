@@ -1,4 +1,4 @@
-import { plus } from './calc.js';
+import multi from './calc.js';
 
-const result = plus(1, 2);
+const result = multi(3, 5);
 console.log(result);
