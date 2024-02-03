@@ -20,3 +20,13 @@
 .ブラウザで使える。Node.jsでも使える。
 .モジュールを読み込むときは「import/export」
 .Node.jsで使うときは明示的に指定しないと使えない
+
+【ESMの時の手順】
+1:package.jsonにtypeプロパティを設定して、バリューにmoduleをする
+{
+    "type" : "module"
+}
+2:モジュール側はexportで出力させる
+export {} 
+3:読み込む側ではimportで読み込む
+import {} from "モジュール名"
