@@ -10,10 +10,9 @@ let num = Math.floor(Math.random() * 1e4);
 
 //fs.writeFileSync(`test${num}.html`, '<p>こんばんは</p>');
 
-// console.log(__dirname);
-// console.log(__filename);
+//console.log(__dirname);
+//console.log(__filename);
 
 // fs = require('fs');
 // fs.writeFileSync(__dirname + '/q.txt', 'さっささささ');
 //これはtt2ブランチ
-// // // // //
