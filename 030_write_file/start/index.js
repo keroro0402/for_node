@@ -17,3 +17,4 @@ let num = Math.floor(Math.random() * 1e4);
 // fs.writeFileSync(__dirname + '/q.txt', 'さっささささ');
 //これはtブランチ
 /////////
+// // // // //
