@@ -16,3 +16,14 @@ export default () => {
 
 // ESMではエクスポートする側にはexportを使う
 export { sa, da };
+
+function q(a, b) {
+  return a + b;
+}
+
+function w(a, b) {
+  return a + b;
+}
+
+const fs = require('fs');
+console.log(fs);

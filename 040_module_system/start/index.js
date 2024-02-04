@@ -11,3 +11,6 @@ console.log(result);
 // pathを書いてみた
 let path = require('path');
 // console.log(path.resolve(__dirname));
+
+let fs = require('fs');
+console.log(fs);
