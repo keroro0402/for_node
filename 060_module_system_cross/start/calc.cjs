@@ -1,7 +1,7 @@
-function sa(a, b) {
-  return a + b;
+function Chi() {
+  return 'CJSで書かれたよ！！';
 }
 
 module.exports = {
-  sa,
+  Chi,
 };
