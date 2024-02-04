@@ -14,3 +14,5 @@ const q = fileURLToPath(import.meta.url);
 import jsonObj from './sample.json' assert { type: 'json' };
 
 console.log(jsonObj);
+
+console.log(globalThis);
