@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "is-odd": "^3.0.1",
+    "jquery": "^3.7.1"
+  }
+}
