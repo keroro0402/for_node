@@ -1,4 +1,14 @@
-const fs = require('fs'); // commonJSの記法
+const fs = require('fs'); // fsモジュール読み込み
+const path = require('path');
+const { pid } = require('process');
+
+const fileNameInit = Math.floor(Math.random() * 1e5);
+const fileName = fileNameInit + '.txt';
+const filePath = path.resolve(__dirname + '/dist/' + fileName);
+
+fs.writeFileSync(filePath, 'これは' + fileName + 'です');
+
+//const fs = require('fs'); // commonJSの記法
 
 /**
  * const fs = require("fs"); //
@@ -34,23 +44,27 @@ const fs = require('fs'); // commonJSの記法
  * fs.writeFileSync("ファイル名","書き込む内容")
  */
 
-const toExportDir = '/Users/yamamototsuyoshi/Desktop/for_node/dastDir/'; // 書き込み先階層
-const num = Math.floor(Math.random() * 1e5); // ファイル名
-const file = num + '.txt';
+// const toExportDir = '/Users/yamamototsuyoshi/Desktop/for_node/dastDir/'; // 書き込み先階層
+// const num = Math.floor(Math.random() * 1e5); // ファイル名
+// const file = num + '.txt';
 
-fs.writeFileSync(
-  toExportDir + file,
-  'こんばんは、これは' + num + 'のファイルです！！！'
-);
-
-const path = require('path');
-const targetPath = path.resolve(__dirname + '../../dist/test.txt');
-console.log(targetPath);
+// fs.writeFileSync(
+//   toExportDir + file,
+//   'こんばんは、これは' + num + 'のファイルです！！！'
+// );
 
 // const path = require('path');
-// const targetPass = path.resolve(__dirname + '../../SEXMachine/test.txt');
-// console.log(targetPass);
+// const targetPath = path.resolve(__dirname + '../../dist/test.txt');
+// console.log(targetPath);
 
-// const path = require('path');
-// const distPath = path.resolve(__dirname, '../../../dist/test.txt'); // path.resolve(相対パスを含めたパスを絶対パスに変換する)
-// console.log(distPath);
+// // const path = require('path');
+// // const targetPass = path.resolve(__dirname + '../../SEXMachine/test.txt');
+// // console.log(targetPass);
+
+// // const path = require('path');
+// // const distPath = path.resolve(__dirname, '../../../dist/test.txt'); // path.resolve(相対パスを含めたパスを絶対パスに変換する)
+// // console.log(distPath);
+// /**
+//  * const fs = require("fs");
+//  * fs.writeFileSync()
+//  */
